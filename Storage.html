@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Storage Organization</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 1rem 0;
+        }
+        .container {
+            padding: 2rem;
+        }
+        .featured, .categories, .testimonials, .contact {
+            margin-bottom: 2rem;
+        }
+        .featured img, .categories img {
+            width: 100%;
+            height: auto;
+        }
+        .category-item {
+            margin-bottom: 1rem;
+        }
+        .testimonials p {
+            font-style: italic;
+        }
+        .contact form {
+            display: flex;
+            flex-direction: column;
+        }
+        .contact form input, .contact form textarea {
+            margin-bottom: 1rem;
+            padding: 0.5rem;
+            font-size: 1rem;
+        }
+        .contact form button {
+            padding: 0.5rem;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        .contact form button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Home Storage Organization</h1>
+        <p>Transform Your Home with Our Storage Solutions</p>
+    </header>
+    <div class="container">
+        <section class="featured">
+            <h2>Featured Storage Solutions</h2>
+            <img src="featured-storage.jpg" alt="Featured Storage Solutions">
+            <p>Discover our top storage solutions designed to maximize space and efficiency in your home.</p>
+        </section>
+        <section class="categories">
+            <h2>Categories</h2>
+            <div class="category-item">
+                <img src="closet-storage.jpg" alt="Closet Storage">
+                <h3>Closet Storage</h3>
+                <p>Organize your wardrobe with our customizable closet storage solutions.</p>
+            </div>
+            <div class="category-item">
+                <img src="garage-storage.jpg" alt="Garage Storage">
+                <h3>Garage Storage</h3>
+                <p>Keep your garage clutter-free with our durable and versatile garage storage options.</p>
+            </div>
+            <div class="category-item">
+                <img src="kitchen-storage.jpg" alt="Kitchen Storage">
+                <h3>Kitchen Storage</h3>
+                <p>Enhance your kitchen space with our innovative kitchen storage solutions.</p>
+            </div>
+        </section>
+        <section class="testimonials">
+            <h2>Customer Testimonials</h2>
+            <p>"These storage solutions have completely transformed my home. I couldn't be happier!" - Jane D.</p>
+            <p>"High-quality products and excellent customer service. Highly recommend!" - John S.</p>
+        </section>
+        <section class="contact">
+            <h2>Contact Us</h2>
+            <form action="#" method="post">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </div>
+</body>
+</html>
